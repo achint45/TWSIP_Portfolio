@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Achint-Portfolio</title>
+    <link rel="shortcut icon" href="/ab.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Achint's Portfolio</div>
+            <div class="right"><ul>
+                 <li><a href="/">Home</a></li>
+               <li><a href="/">About</a></li>
+               <li><a href="/">Projects</a></li>
+                <li><a href="/">Contact Me</a></li>
+            </ul></div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My name is <span class="red">Achint</span>
+                <div>I am a Passionate </div>
+                <span id="element"></span>
+            </div>
+            <div class="rightSection">
+                <img src="ab1.png" alt="">
+            </div>
+        </section>
+        <section class="secondSection">
+            <div class="Projects" id="Projects" style="height: 70vh;">
+                <h1 class="name">PROJECTS</h1>
+                <div class="projectls" style="display: flex;justify-content: space-evenly;gap: 20vw;margin-top: 10vh;">
+                    <div class="fir" style="width: 20vw; height: 30vh;background-color: rgb(76, 76, 76);box-shadow: 10px 10px 5px rgba(255, 255, 255, 0.555);">
+                        <h3 style="padding: 1vw;">Road rash Game</h3>
+                        <p style="padding: 2vw;">• Basic road rash game using Python and pygame library</p>
+                    </div>
+                    <div class="second" style="width: 20vw;height: 30vh;background-color: rgb(76, 76, 76);box-shadow: 10px 10px 5px rgba(255, 255, 255, 0.691);">
+                        <h3 style="padding: 1vw;">Compare Hub</h3>
+                        <p style="padding: 2vw;">• Built a Python based project using web-scraping to compare the products</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="contactme" id="contact">
+                <h1 class="Contact">Contact Details</h1>
+                <p style="width: 45vw;">Hello Thanku for visiting this page if you want to reach fast than Contact me on mail achintkashyap325@gmail.com</p>
+                <form action="/file.db" name="myform" onsubmit="return validate()">
+                    <input type="name" placeholder="Name:" name="name">
+                    <input type="email" placeholder="Email" name="email">
+                    <textarea placeholder="Project Detail" name="projectdetail" id=""></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer style="margin-top: 10vh;">
+        <div>
+            <a target="_blank" href="" class="github"><svg
+                    xmlns="http://www.w3.org/2000/svg" width="3vw" height="3vw" fill="black" class="bi bi-github"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+                </svg></a>
+            <a target="_blank" href="https://www.linkedin.com/in/achint-kashyap-211941205" class="link"><svg
+                    xmlns="http://www.w3.org/2000/svg" width="3vw" height="3vw" fill="black" class="bi bi-linkedin"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+                </svg></a>
+        </div>
+        <p>
+            <a href="#contact" style="text-decoration: none;color: white;">
+                copyright &copy; Achint
+            </a>
+        </p>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+     <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Web Developer', ' Software Developer.'],
+      typeSpeed: 50,
+    });
+  </script>
+</body>
+</html>
